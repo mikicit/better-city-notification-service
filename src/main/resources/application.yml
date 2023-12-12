@@ -13,3 +13,11 @@ spring:
 server:
   port: 8080
   forward-headers-strategy: framework
+firebase:
+  storage:
+    bucketName: "ctu-nss.appspot.com"
+  service:
+    account:
+      file: "keys/firebase-service-account-key.json"
+kafka:
+  bootstrap-servers: kafka-service.kafka.svc.cluster.local:9092
